@@ -1,0 +1,46 @@
+{
+  "name": "react6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack --mode development && nodemon server/server.js",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^1.0.0",
+    "@material-ui/icons": "^1.1.0",
+    "@types/material-ui": "^0.20.8",
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-youtube": "^7.4.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "dotenv": "^5.0.1",
+    "dotenv-webpack": "^1.5.5",
+    "express": "^4.16.3",
+    "moment": "^2.22.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-youtube": "^7.6.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "typeface-roboto": "0.0.54",
+    "webpack-cli": "^2.1.4"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5",
+    "sass-loader": "^7.0.1",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.21.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.8.3"
+  }
+}
